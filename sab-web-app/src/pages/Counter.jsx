@@ -62,9 +62,9 @@ const Counter = () => {
           onChange={(e) => setSearchText(e.target.value)}
         />
         <ul>
-        {filteredUsers.map((user, index) => (
-          <li key={index}>{user}</li>
-        ))}
+          {filteredUsers.map((user, index) => (
+            <li key={index}>{user}</li>
+          ))}
         </ul>
       </div>
     </>
